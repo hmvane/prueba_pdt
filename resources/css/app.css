@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.indicator{
+    transition: left .4s;
+}
+
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&display=swap");
+
+@layer base {
+    html {
+        @apply text-surface;
+        @apply bg-white;
+    }
+    html.dark {
+        @apply text-neutral-50;
+        @apply bg-body-dark;
+    }
+    }
+
+    @tailwind components;
+    @tailwind utilities;
+
+    p {
+        @apply leading-[1.6];
+    }
